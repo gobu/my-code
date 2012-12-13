@@ -1,0 +1,1 @@
+puts (coin=gets.to_i)&&(coin<1000000000 && coin>0) ? (dollar=((coin/2 )+( coin/3)+(coin/4)))>coin ? (printf"3 coin method\n coin=%d\tdollar=%d\n",coin,dollar) : (printf"1:1 method.\n coin=%d\tdollar=%d",coin,dollar=coin) : "enter valid input try again"
