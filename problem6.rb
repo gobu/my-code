@@ -5,7 +5,7 @@ m=b[0].to_i
 n=b[1].to_i
 puts "m = #{m}"
 puts "n = #{n}"
-x,y,c=1,0,[]
+x,c=1,[]
 if (m>0 && n>m && n<1000000000)
 	if(n-m<=100000)
 		puts "prime numbers"
@@ -15,11 +15,10 @@ if (m>0 && n>m && n<1000000000)
 					x=0
 				end
 			end
-			if x!=0
-				puts i
-				y+=1
+			if x!=0 
+				puts i 
 			else
-				x=1
+				 x=1
 			end
 		end
 	end
